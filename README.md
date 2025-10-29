@@ -1,5 +1,26 @@
 # Data Analysis Portfolio
+
+
 # Project 1
+
+**Title:** [King Inc Sales And Profit Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Sales%20and%20Profit%20Data%20Dashboard.xlsx)
+
+**Tools Used:** Microsoft Excel(Pivot)
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:**
+
+![Dashboardone](Dashboardone.png)
+
+
+
+
+
+
+# Project 2
 
 **Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
