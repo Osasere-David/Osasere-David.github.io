@@ -16,11 +16,74 @@
 ![Dashboardone](Dashboardone.png)
 
 
-
-
-
-
 # Project 2
+**Title:** [Superstore Sales Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/superstore-sales-dataset-%20Dashboard%202.xlsx)
+
+**Tools Used:**
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:** 
+
+![Dashboardtwo](Dashboardtwo.png)
+
+
+# Project 3
+
+**Title:** [ATM Transaction Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/ATM%20Dashboard.pbix)
+
+**Tools Used:** Powerbi
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:**
+
+![Dashboardthree](Dashboardthree.png)
+
+![Dashboardthreee.png](Dashboardthreee.png)
+
+
+
+# Project 4
+
+**Title:** [Shopify Sales And Customers Report](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Shopify%20Dashboard.pbix)
+
+**Tools Used:**
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:**
+
+![Dashboardfour](Dashboardfour.png)
+
+![Dashboardfourr](Dashboardfourr.png)
+
+
+
+# Project 5
+
+**Title:**
+
+**Tools Used:**
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:**
+
+
+
+
+
+
+# Project 6
 
 **Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
