@@ -3,6 +3,24 @@
 
 # Project 1
 
+**Title:** [Bank Loan Report](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Loan%20Dashboard.pbix)
+
+**Tools Used:**
+
+**Project Description:**
+
+**Key Findings:**
+
+**Dashboard Overview:**
+![Loanone](Loanone.png)
+
+![Loantwo](Loantwo.png)
+
+![Loanthree](Loanthree.png)
+
+
+# Project 2
+
 **Title:** [King Inc Sales And Profit Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Sales%20and%20Profit%20Data%20Dashboard.xlsx)
 
 **Tools Used:** Microsoft Excel(Pivot)
@@ -16,7 +34,7 @@
 ![Dashboardone](Dashboardone.png)
 
 
-# Project 2
+# Project 3
 **Title:** [Superstore Sales Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/superstore-sales-dataset-%20Dashboard%202.xlsx)
 
 **Tools Used:**
@@ -30,7 +48,7 @@
 ![Dashboardtwo](Dashboardtwo.png)
 
 
-# Project 3
+# Project 4
 
 **Title:** [ATM Transaction Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/ATM%20Dashboard.pbix)
 
@@ -48,7 +66,7 @@
 
 
 
-# Project 4
+# Project 5
 
 **Title:** [Shopify Sales And Customers Report](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Shopify%20Dashboard.pbix)
 
@@ -66,7 +84,7 @@
 
 
 
-# Project 5
+# Project 6
 
 **Title:**
 
@@ -83,7 +101,7 @@
 
 
 
-# Project 6
+# Project 7
 
 **Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
