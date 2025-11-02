@@ -108,6 +108,18 @@ Dashboard Pages:
    Majority of loans concentrated in debt consolidation and short-term durations.
 
    Opportunities to further optimize lending for renters and longer-term loans.
+   
+ **Recommendation**
+
+   ~ Tighten risk controls for long-term and high-interest loans, which show higher default (bad loan) rates.
+
+   ~ Promote shorter-term products (36 months)—they demonstrate better repayment performance and lower DTI.
+
+   ~ Expand the debt consolidation segment—it’s the most profitable and reliable category.
+
+   ~ Launch customer loyalty or refinancing programs for high-performing borrowers to maintain repayment momentum.
+
+   ~ Leverage MoM growth data to forecast funding needs and plan liquidity management proactively.
 
 
 
@@ -191,21 +203,30 @@ Dashboard Pages:
 
    → High profitability and uptime in Mizoram (100%) and Ladakh (93.8%), while Nagaland shows lower uptime (68.8%) despite strong margins.
    → Punjab and Assam are key states with large ATM volumes.
+   
+ **In Summary**
+ 
+   This ATM Transactional Dashboard provides comprehensive insights into revenue, costs, and operationa efficiency.
+   
+   Key takeaways: ~  Maintenance cost are well controlled relative to revenue.
+~ Most ATMs fall within the above 30% margin range, reflecting effective management.
+~ The ATM Network maintains high uptime (92%) and strong profitability (60% margin).
+~  Regional focus could be placed on Nagaland and Meghalaya for uptime improvements.
 
-**In Summary**
-   This ATM Transaction Dashboard provides comprehensive insights into revenue, costs, and operational efficiency.
-   Key takeaways:
+ **Recommendations:**
 
-     ~ The ATM network maintains high uptime (92%) and strong profitability (60% margin).
+   ~ Investigate underperforming regions (Nagaland, Meghalaya) and improve maintenance or connectivity to boost uptime.
 
-     ~ Most ATMs fall within the above 30% margin range, reflecting effective management.
+   ~ Increase transaction incentives (cashback, offers) in low-traffic areas to improve utilization.
 
-     ~ Regional focus could be placed on Nagaland and Meghalaya for uptime improvement.
+   ~ Optimize maintenance contracts (AMC, VSAT) based on cost-to-revenue ratios to maintain profitability.
 
-     ~ Maintenance costs are well controlled relative to revenue.
+   ~ Deploy predictive maintenance analytics to preempt downtimes and sustain the >90% uptime target.
+
+   ~ Expand ATM footprint in high-margin zones to leverage strong performance and customer engagement.
 
 
-
+ 
 **Dashboard Overview:**
 
 ![Dashboardthree](Dashboardthree.png)
@@ -241,8 +262,6 @@ Scope:
 
  **1. Overall Performance**
 
-    Net Sales: $4,180,874
-
    Total Quantity Sold: 7,534
 
    Net Avg Order Value: $562.6
@@ -258,6 +277,8 @@ Scope:
    Purchase Frequency: 1.68
 
    Lifetime Value (LTV): $943.6
+   
+   Net Sales: $4,180,874
 
    ➡️ Strong repeat customer base (nearly half of all buyers), suggesting successful retention and engagement.
 
@@ -305,6 +326,18 @@ Scope:
 
    This Power BI Shopify Dashboard provides a comprehensive e-commerce performance overview, connecting sales data with customer behavior to reveal patterns in revenue,       retention, and product demand.
    It helps decision-makers monitor key funnel metrics—from order frequency to repeat rates—and optimize marketing strategies to enhance customer lifetime value and           profitability.
+   
+ **Recommendations:**
+ 
+   ~ Invest in customer retention campaigns—a 46% repeat rate is strong; focus on loyalty rewards and personalized offers to reach 60%+.
+
+   ~ Expand marketing spend on top-performing cities (New York, Houston, Dallas) and replicate successful regional campaigns.
+
+   ~ Diversify product catalog—high dependence on footwear presents concentration risk. Introduce apparel or accessories to broaden revenue base.
+
+   ~ Monitor payment gateway fees—encourage Shopify Payments (lower fees) while retaining flexibility with PayPal/Amazon Pay.
+
+   ~ Leverage sales time analysis to schedule promotions during peak activity hours for maximum ROI.
 
 
 
@@ -319,13 +352,75 @@ Scope:
 
 # Project 4
 
+**Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
+**SQL Code:** [Workplace Safety Incident Analysis](SafetyData-File.sql)
 
+![workplace.png](workplace.png)
 
+**SQL Skills Used:** 
+
+   ~ Data Retrieval (SELECT): Queried and extracted specific information from the database.
+
+   ~ Data Aggregation (SUM,AVG,COUNT): Calculated totals, averages, and counted records to analyze data trends.
+
+   ~ Data Filtering (WHERE): Applied filters to select relevant data needed for analyzing.
+
+   ~ Data Source Specification(FROM): Specified the tables used as data soruces for retrieval
+
+**Project Description:** Developed a comprehensive SQL-based analytics project to explore and evaluate workplace safety performance using (SQL Server).
+Implemented multiple analytical queries to identify incident frequency, cost distribution, risk patterns, and demographic impacts across plants, departments, and time periods.
+Used advanced SQL functions (GROUP BY, AVG, CASE, TOP) to uncover trends such as high-risk locations, costly incident types, and age/shift-based exposure, supporting data-driven safety management decisions.
+
+Scope:
+This project uses SQL queries to perform data exploration and analysis on workplace safety records stored in a relational database. The dataset includes columns such as Plant, Department, Incident Type, Injury Location, Days Lost, Age Group, Gender, Report Type, and Incident Cost.
+
+Key analytical tasks include:
+
+   ~ Counting incidents by plant, department, and year to identify high-risk locations.
+
+   ~ Calculating total and average incident costs by department, injury location, and report type.
+
+   ~ Evaluating incident severity using days lost and cost metrics.
+
+   ~ Analyzing incident patterns by shift, gender, and age group.
+
+   ~ Detecting recurring incident types such as “Crush & Pinch” and “Falling Object.”
+
+   ~ Assessing temporal trends (month/year analysis) to identify seasonal spikes.
+
+**Technology Used:** SQL Server
 
 # Project 5
 
+**Title:** Customer Insight - Data Manipulation and Interrogation
 
+**SQL Code** [Customer Insight](sqlnumbertwo.sql)
+
+![sqlshot2](sqlshot2.png)
+
+**SQL Skills Used:** Data Retrieval (SELECT): Queried and extracted specific information from the database.
+Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval.
+
+**Project Description:** 
+Designed and executed a series of SQL queries to analyze workplace safety incidents, costs, and patterns across multiple relational tables including Customers, Orders, and Salesman. Utilized data retrieval (SELECT) to extract specific records, data aggregation (SUM, COUNT) to calculate total incidents and costs, and data filtering (WHERE, BETWEEN, IN, AND) to isolate relevant conditions such as time periods, incident types, and report categories.
+The project involved building reports that combined customer demographics, order details, purchase amounts, and salesman performance to understand sales trends and customer behaviour. Queries were designed to:
+
+   ~ Retrieve customer and order information, including city, order date, and purchase amount.
+
+   ~ Analyze orders by status to evaluate fulfilment efficiency.
+
+   ~ Identify customers without assigned sales representatives for potential sales opportunities.
+
+   ~ Join salesmen and customer data to analyse commission structures and their impact on sales.
+
+   ~ Aggregate purchase amounts and order counts to assess overall sales performance across regions and time periods.
+
+Through this data interrogation, the project highlighted patterns in customer purchases, identified gaps in sales coverage, and provided insights into improving sales strategies.
+
+**Technology Used:** SQLServer
 
 
 # Project 6
@@ -424,6 +519,18 @@ Enabled data-driven decision-making through visual analysis of top-performing st
    Pinpoint high-performing states and seasonal sales trends, and
 
    Optimize sales strategy for profitability improvement.
+   
+ **Recommendations:**
+
+   ~ Strengthen relationships with top customers through loyalty incentives or dedicated account management.
+
+   ~ Focus on Q4 inventory optimization to maximize profits during seasonal peaks.
+
+   ~ Reassess low-profit categories (e.g., Paper, Supplies) to reduce or reprice low-margin SKUs.
+
+   ~ Enhance marketing around Technology products, which consistently outperform.
+
+   ~ Expand sales outreach in states with moderate sales but high growth potential to balance regional performance.
 
 
 **Dashboard Overview:**
@@ -433,7 +540,7 @@ Enabled data-driven decision-making through visual analysis of top-performing st
 
 
 
-# Project 6
+# Project 7
 
 **Title:** [Superstore Sales Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/superstore-sales-dataset-%20Dashboard%202.xlsx)
 
@@ -510,6 +617,18 @@ The dashboard highlights Consumer and Technology as top-performing segments, ide
    Identify profitable segments and categories, and
 
    Align marketing or logistics strategies to seasonal and regional demand patterns.
+     
+**Recommendations:**
+
+   ~ Prioritize Technology and Consumer-focused marketing—they are driving the highest margins.
+
+   ~ Capitalize on Q4 demand with early promotional campaigns in Q3 to capture pre-holiday sales.
+
+   ~ Evaluate underperforming categories (Supplies, Labels, Art) for potential discontinuation or pricing adjustment.
+
+   ~ Optimize shipping options—“Same Day” and “First Class” might offer higher customer satisfaction but should be cost-monitored.
+
+   ~ Target corporate clients for diversification, as Consumer sales dominate—this reduces dependency on one segment.
 
 
 **Dashboard Overview:** 
@@ -521,19 +640,5 @@ The dashboard highlights Consumer and Technology as top-performing segments, ide
 
 
 
-# Project 7
 
-**Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
-**SQL Code:** 
-![workplace.png](workplace.png)
-
-**SQL Skills Used:** 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-Data Aggregation (SUM,AVG,COUNT): Calculated totals, averages, and counted records to analyze data trends.
-Data Filtering (WHERE): Applied filters to select relevant data needed for analyzing.
-Data Source Specification(FROM): Specified the tables used as data soruces for retrieval
-
-**Project Description:**
-
-**Technology Used:** SQL Server
