@@ -215,7 +215,7 @@ Dashboard Pages:
 
  **Recommendations:**
 
-   ~ Investigate underperforming regions (Nagaland, Meghalaya) and improve maintenance or connectivity to boost uptime.
+   ~ Investigate underperforming regions (Nagaland, Meghalaya, etc) and improve maintenance or connectivity to boost uptime.
 
    ~ Increase transaction incentives (cashback, offers) in low-traffic areas to improve utilization.
 
@@ -544,7 +544,7 @@ Enabled data-driven decision-making through visual analysis of top-performing st
 
 **Title:** [Superstore Sales Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/superstore-sales-dataset-%20Dashboard%202.xlsx)
 
-**Tools Used:** Data Prepaation and Transformation, Microsoft Excel(Pivot Tables and Pivot Chart
+**Tools Used:** Data Prepaation and Transformation, Microsoft Excel(Pivot Tables and Pivot Chart)
 
 
 **Project Description:** Developed an interactive Excel dashboard to analyze retail sales and profitability trends across four years. Utilized Pivot Tables, Slicers, and Dynamic Charts to visualize KPIs including Total Sales ($2.3M), Profit ($286K), and Profit Margin (12.47%).
@@ -561,6 +561,7 @@ The dashboard highlights Consumer and Technology as top-performing segments, ide
 
 
 **Key Findings:**
+
  **1. Overall Performance**
 
    Total Sales: $2,297,201
