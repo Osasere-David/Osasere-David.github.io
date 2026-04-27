@@ -3,6 +3,91 @@
 
 # Project 1
 
+**Title:** [Executive Pulse Dashboard – End‑to‑End E‑Commerce BI & Churn Prediction](https://osasere28.shinyapps.io/executive-pulse-dashboard/)
+
+**Tools Used:** R, Shiny, shinydashboard, plotly, DT, tidyverse, lubridate, scales, rsample, yardstick
+
+**Project Description:** A full‑stack business intelligence dashboard built for a Brazilian e‑commerce platform. It ingests over 740,000 transactions (24 features) and presents four integrated tabs:
+• Executive Summary – KPI cards (Revenue, Profit, AOV, Active Customers) and Monthly Recurring Revenue trend.
+• Customer Segmentation – RFM analysis grouping customers into Champions, Loyal, At Risk, Hibernating, etc., with interactive scatter and box plots.
+• Cohort Retention – Heatmap showing month‑by‑month customer retention after first purchase.
+• Churn Prediction – Live logistic regression calculator where marketing teams input customer behaviour to instantly see churn probability (colour‑coded gauge) along with model accuracy/AUC.
+
+**Key Findings:** 
+
+The “At Risk” segment represents a large, reclaimable revenue pool; targeted win‑back campaigns could recover significant income.
+• Cohort retention drops sharply after the first month – the business should invest in onboarding and early‑life engagement.
+• Recency (days since last purchase) is the number‑one driver of churn; customers inactive for >30 days have a much higher churn probability.
+• The interactive churn calculator democratises the predictive model – non‑technical stakeholders can use it to trigger real‑time retention actions.
+
+**Dashboard Overview:**
+
+![R0011](R0011.png)
+
+![R0012](R0012.png)
+
+![R00122](R00122.png)
+
+![R00123](R00123.png)
+
+![R00131](R00131.png)
+
+![R00141](R00141.png)
+
+# Project 2
+
+**Title:** [Patient Risk Factor Dashboard – Predictive Analytics in Healthcare](https://osasere28.shinyapps.io/healthcare-risk-dashboard/)
+
+**Tools Used:** R, Shiny, shinydashboard, tidyverse, survival, survminer, ggplot2
+
+**Project Description:** An interactive clinical decision-support tool that predicts a patient’s probability of death during hospitalisation. The dashboard combines a logistic regression model (GLM) with Cox proportional hazards survival analysis and Kaplan-Meier curves. Clinicians can adjust patient age and length‑of‑stay via sliders to instantly see the predicted mortality risk (colour‑coded from green to red) and a personalised survival curve. The underlying models are trained on simulated hospital admission data, demonstrating how advanced statistics can be made accessible to non‑technical medical staff.
+
+**Key Findings:**
+
+• Each additional day in the hospital increases the odds of death by ~13% (odds ratio ≈ 1.14).
+• Length of stay is a stronger predictor of mortality than age alone.
+• Older age groups (70+) show a significantly steeper decline in survival probability after 10–15 days.
+• The built‑in risk gauge translates complex model output into an intuitive “low/medium/high risk” alert, supporting rapid triage decisions.
+
+**Dashboard Overview:**
+
+![R01](R01.png)
+
+![R011](R011.png)
+
+
+# Project 3
+
+**Title:** [Brazilian E-Commerce Delivery Performance Analysis](https://github.com/Osasere-David/data-science/blob/main/data/week1_analysis.ipynb)
+
+**Python Skills Used:**
+
+- Python fundamentals: variables, data types, loops, dictionaries, and list comprehensions
+- NumPy for array operations and broadcasting
+- Pandas for data loading, cleaning, merging, and transformation
+- Datetime conversion and feature engineering
+- SQL with SQLite for database storage and analysis
+- Aggregate analysis using GROUP BY and conditional calculations
+- Data visualization with Matplotlib and Seaborn
+- Basic file handling and working with local directories
+
+**Project Description:**
+
+This project analyzed Brazilian e-commerce order data to measure delivery performance across states. I loaded separate orders and customer datasets, merged them into a single DataFrame, cleaned and transformed the data, converted timestamp fields into datetime format, and created a delivery status flag. I then stored the cleaned dataset in SQLite and used SQL queries to calculate delivery success rates by state. Finally, I visualized the results in a styled horizontal bar chart to highlight the top and bottom performing states.
+
+**Technology Used:** VS Code, Python, Pandas, NumPy, SQLite3, SQL, Matplotlib, Seaborn
+
+**Python Code:**
+
+![pyt001](pyt001.png)
+
+![pyt002](pyt002.png)
+
+![pyt005](pyt005.png)
+
+
+# Project 4
+
 **Title:** [Bank Loan Report](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Loan%20Dashboard.pbix)
 
 **Tools Used:** Powerbi (Power Query, Data Modeling, DAX, Visualizations, Page Navigator)
@@ -133,7 +218,7 @@ Dashboard Pages:
 
 
 
-# Project 2
+# Project 5
 
 **Title:** [ATM Transaction Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/ATM%20Dashboard.pbix)
 
@@ -236,7 +321,7 @@ Dashboard Pages:
 
 
 
-# Project 3
+# Project 6
 
 **Title:** [Shopify Sales And Customers Report](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Shopify%20Dashboard.pbix)
 
@@ -350,7 +435,7 @@ Scope:
 
 
 
-# Project 4
+# Project 7
 
 **Title:** Workplace Safety Data Insight - Data Manipulation and Interrogation
 
@@ -391,7 +476,7 @@ Key analytical tasks include:
 
 **Technology Used:** SQL Server
 
-# Project 5
+# Project 8
 
 **Title:** Customer Insight - Data Manipulation and Interrogation
 
@@ -423,7 +508,7 @@ Through this data interrogation, the project highlighted patterns in customer pu
 **Technology Used:** SQLServer
 
 
-# Project 6
+# Project 9
 
 **Title:** [King Inc Sales And Profit Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/Sales%20and%20Profit%20Data%20Dashboard.xlsx)
 
@@ -540,7 +625,7 @@ Enabled data-driven decision-making through visual analysis of top-performing st
 
 
 
-# Project 7
+# Project 10
 
 **Title:** [Superstore Sales Analysis](https://github.com/Osasere-David/Osasere-David.github.io/blob/main/superstore-sales-dataset-%20Dashboard%202.xlsx)
 
